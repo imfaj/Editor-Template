@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Simple Sidebar - Start Bootstrap Template</title>
+  <title>Shape Editor - Alpha</title> <!-- Tab Title-->
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -16,15 +16,34 @@
   <!-- Custom styles for this template -->
   <link href="css/simple-sidebar.css" rel="stylesheet">
 
+  <!-- CSS para los iconos de Redes Sociales "Font Awesome Icons". It is for Font Awesome 4 Icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
 
   <div class="d-flex" id="wrapper">
 
-    <!-- Sidebar -->
+    <!--- Sidebar ---->
     <div class="bg-light border-right" id="sidebar-wrapper">
-      <div class="sidebar-heading">Start Bootstrap </div>
+      <div class="sidebar-heading"> <h2 class="display-4">Shape Editor</h2></div>
+      <div  class="container pt-3 my-2 pl-4">
+        <p class="h5 font-weight-normal">Action</p>
+        <div class="dropdown">
+          <button type="button" class="btn btn-outline-dark dropdown-toggle" data-toggle="dropdown">
+            Choose
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Link 1</a>
+            <a class="dropdown-item" href="#">Link 2</a>
+            <a class="dropdown-item" href="#">Link 3</a>
+          </div>
+        </div>
+        <br>
+        <p class="h5 font-weight-normal">Type</p>
+        <p class="h5 font-weight-normal">View</p>
+      </div>
       <div class="list-group list-group-flush">
         <a href="#" class="list-group-item list-group-item-action bg-light">Dashboard</a>
         <a href="#" class="list-group-item list-group-item-action bg-light">Shortcuts</a>
@@ -33,8 +52,12 @@
         <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>
         <a href="#" class="list-group-item list-group-item-action bg-light">Status</a>
       </div>
+      <div class="col text-centered">
+      <button type="button" class="btn btn-success btn-lg">Save <i class="fa fa-floppy-o" aria-hidden="true"></i> </button>
+      <button type="button" class="btn btn-secondary btn-lg">Map <i class="fa fa-map-o" aria-hidden="true"></i></button>
+      </div>
     </div>
-    <!-- /#sidebar-wrapper -->
+    <!-- /#sidebar-wrapper --->
 
     <!-- Page Content -->
     <div id="page-content-wrapper">
