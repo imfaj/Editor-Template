@@ -37,7 +37,7 @@
             Choose
           </button>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Select</a>
+            <a class="dropdown-item active" href="#">Select</a>
             <a class="dropdown-item" href="#">Add</a>
             <a class="dropdown-item" href="#">Split</a>
             <a class="dropdown-item" href="#">Move</a>
@@ -49,39 +49,43 @@
         <p class="h5 font-weight-normal">Type</p>
 
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="exampleRadios" id="RadioShape" value="option1">
-          <label class="form-check-label" for="exampleRadios1">
+          <input class="form-check-input" type="radio" name="Radios" id="RadioShape" value="option1">
+          <label class="form-check-label" for="Radios1">
             Shape
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="exampleRadios" id="RadioEndpoint" value="option2">
-          <label class="form-check-label" for="exampleRadios1">
+          <input class="form-check-input" type="radio" name="Radios" id="RadioEndpoint" value="option2">
+          <label class="form-check-label" for="Radios2">
             Endpoint
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="exampleRadios" id="RadioStop" value="option3">
-          <label class="form-check-label" for="exampleRadios1">
+          <input class="form-check-input" type="radio" name="Radios" id="RadioStop" value="option3">
+          <label class="form-check-label" for="Radios3">
             Stop
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="exampleRadios" id="RadioIntersection" value="option4" checked>
-          <label class="form-check-label" for="exampleRadios1">
+          <input class="form-check-input" type="radio" name="Radios" id="RadioIntersection" value="option4" checked>
+          <label class="form-check-label" for="Radios4">
             Intersection
           </label>
         </div>
         <br>
         <p class="h5 font-weight-normal">View</p>
-      </div>
-      <div class="list-group list-group-flush">
-        <a href="#" class="list-group-item list-group-item-action bg-light">Dashboard</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Shortcuts</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Overview</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Events</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Status</a>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="Check1" checked>
+          <label class="form-check-label" for="Check1">Show Nodes</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="Check2" checked>
+          <label class="form-check-label" for="Check2">Show Links</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="Check3" checked>
+          <label class="form-check-label" for="Check3">Show Stops</label>
+        </div>
       </div>
       <div class="col text-centered">
       <button type="button" class="btn btn-success btn-lg">Save <i class="fa fa-floppy-o" aria-hidden="true"></i> </button>
